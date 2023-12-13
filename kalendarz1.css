@@ -1,0 +1,355 @@
+body {
+    background-color: #f1f1f1;
+
+}
+table {
+    width: 100%;
+    
+  }
+  
+ td,th {
+    height: 45px;
+  }
+.logo{
+    background-color: #d4d4d4;
+    position: absolute;
+    width: 1523px;
+    height: 130px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px; 
+    z-index: 10;
+}
+.textlogo{
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size: 95px;
+    position: absolute;
+    top:10px;
+    left:30% ;
+}
+.lewa{
+    background-color: #969696;
+    width: 3px;
+    height: 1140px;
+    border-radius: 20px; 
+    position: absolute;
+    top: 130px;
+    left: 215px;
+    z-index: 9;
+}
+.prawa{
+    background-color: #969696;
+    width: 3px;
+    height: 1140px;
+    border-radius: 20px; 
+    position: absolute;
+    top: 130px;
+    right: 200px;
+    z-index: 9;
+}
+.linia{
+    background-color: #4e4e4e;
+    width: 300px;
+    height: 3px;
+    position: absolute;
+    top: 45px;
+    z-index: 3;
+}
+.linia2{
+    background-color: #4e4e4e;
+    width: 300px;
+    height: 3px;
+    position: absolute;
+    top: 80px;
+    z-index: 3;
+}
+.linia3{
+    background-color: #4e4e4e;
+    width: 300px;
+    height: 3px;
+    position: absolute;
+    top: 125px;
+    z-index: 3;
+}
+.linia4{
+    background-color: #4e4e4e;
+    width: 300px;
+    height: 3px;
+    position: absolute;
+    top: 175px;
+    z-index: 3;
+}
+.linia5{
+    background-color: #4e4e4e;
+    width: 300px;
+    height: 3px;
+    position: absolute;
+    top: 225px;
+    z-index: 3;
+}
+.linia6{
+    background-color: #4e4e4e;
+    width: 300px;
+    height: 3px;
+    position: absolute;
+    top: 270px;
+    z-index: 3;
+}
+.kratka{
+    background-color: #4e4e4e;
+    width: 3px;
+    height: 285px; 
+    position: absolute;
+    top: 45px;
+    left: 43px;
+    z-index: 9;
+}
+.kratka2{
+    background-color: #4e4e4e;
+    width: 3px;
+    height: 285px; 
+    position: absolute;
+    top: 45px;
+    left: 86px;
+    z-index: 9;
+}
+.kratka3{
+    background-color: #4e4e4e;
+    width: 3px;
+    height: 285px; 
+    position: absolute;
+    top: 45px;
+    left: 128px;
+    z-index: 9;
+}
+.kratka4{
+    background-color: #4e4e4e;
+    width: 3px;
+    height: 285px; 
+    position: absolute;
+    top: 45px;
+    left: 170px;
+    z-index: 9;
+}
+.kratka5{
+    background-color: #4e4e4e;
+    width: 3px;
+    height: 285px; 
+    position: absolute;
+    top: 45px;
+    left: 213px;
+    z-index: 9;
+}
+.kratka6{
+    background-color: #4e4e4e;
+    width: 3px;
+    height: 285px; 
+    position: absolute;
+    top: 45px;
+    left: 256px;
+    z-index: 9;
+}
+.pudelko{
+    background-color: #f1f1f1;
+    width: 1485px;
+    height: 1140px;
+    position: absolute;
+    top: 130px;
+    left: 215px;
+    z-index: 1;
+}
+.textmies{
+    color: white;
+    font-family: Arial;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    top:5px;
+    position: relative;
+}
+.dni{
+    position: absolute;
+    top: 34px;
+    left: 13px;
+}
+.nazwy{
+    position: static;
+    top: -35px;
+    left: -1px;
+}
+.styczen{
+    background-color: #a3a3a3;
+    width: 300px;
+    height: 330px;
+    border-radius: 10%;
+    position: absolute; 
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+    border: solid;
+    border-color:#4e4e4e;
+}
+.luty{
+    background-color: #a3a3a3;
+    width: 300px;
+    height: 330px;
+    border-radius: 10%;
+    position: absolute; 
+    top: 40px;
+    left: 410px;
+    z-index: 2;
+    border: solid;
+    border-color:#4e4e4e;
+}
+.marzec{
+    background-color: #a3a3a3;
+    width: 300px;
+    height: 330px;
+    border-radius: 10%;
+    position: absolute; 
+    top: 40px;
+    right: 410px;
+    z-index: 2;
+    border: solid;
+    border-color:#4e4e4e;
+}
+.kwiecien{
+    background-color: #a3a3a3;
+    width: 300px;
+    height: 330px;
+    border-radius: 10%;
+    position: absolute; 
+    top: 40px;
+    right: 40px;
+    z-index: 2;
+    border: solid;
+    border-color:#4e4e4e;
+}
+.maj{
+    background-color: #a3a3a3;
+    width: 300px;
+    height: 330px;
+    border-radius: 10%;
+    position: absolute; 
+    top: 405px;
+    left: 40px;
+    z-index: 2;
+    border: solid;
+    border-color:#4e4e4e;
+}
+.czerwiec{
+    background-color: #a3a3a3;
+    width: 300px;
+    height: 330px;
+    border-radius: 10%;
+    position: absolute; 
+    top: 405px;
+    left: 410px;
+    z-index: 2;
+    border: solid;
+    border-color:#4e4e4e;
+}
+.lipiec{
+    background-color: #a3a3a3;
+    width: 300px;
+    height: 330px;
+    border-radius: 10%;
+    position: absolute; 
+    top: 405px;
+    right: 410px;
+    z-index: 2;
+    border: solid;
+    border-color:#4e4e4e;
+}
+.sierpien{
+    background-color: #a3a3a3;
+    width: 300px;
+    height: 330px;
+    border-radius: 10%;
+    position: absolute; 
+    top: 405px;
+    right: 40px;
+    z-index: 2;
+    border: solid;
+    border-color:#4e4e4e;
+}
+.wrzesien{
+    background-color: #a3a3a3;
+    width: 300px;
+    height: 330px;
+    border-radius: 10%;
+    position: absolute; 
+    top: 770px;
+    left: 40px;
+    z-index: 2;
+    border: solid;
+    border-color:#4e4e4e;
+}
+.pazdziernik{
+    background-color: #a3a3a3;
+    width: 300px;
+    height: 330px;
+    border-radius: 10%;
+    position: absolute; 
+    top: 770px;
+    left: 410px;
+    z-index: 2;
+    border: solid;
+    border-color:#4e4e4e;
+}
+.listopad{
+    background-color: #a3a3a3;
+    width: 300px;
+    height: 330px;
+    border-radius: 10%;
+    position: absolute; 
+    top: 770px;
+    right: 410px;
+    z-index: 2;
+    border: solid;
+    border-color:#4e4e4e;
+}
+.grudzien{
+    background-color: #a3a3a3;
+    width: 300px;
+    height: 330px;
+    border-radius: 10%;
+    position: absolute; 
+    top: 770px;
+    right: 40px;
+    z-index: 2;
+    border: solid;
+    border-color:#4e4e4e;
+}
+.sobota{
+    color:rgb(77, 77, 219);
+}
+.niedziela{
+    color: rgb(241, 57, 57);
+}
+.next{
+    color: #7a7a7a;
+}
+.tooltip {
+    position: absolute;
+    display: inline-block;
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    bottom: 100%;
+    margin-left: -60px;
+    position: absolute ; 
+    z-index: 99;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
