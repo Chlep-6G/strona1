@@ -188,7 +188,7 @@ table {
     position: absolute; 
     top: 40px;
     left: 40px;
-    z-index: 2;
+    z-index: 3;
     border: solid;
     border-color:#4e4e4e;
 }
@@ -212,7 +212,7 @@ table {
     position: absolute; 
     top: 40px;
     right: 410px;
-    z-index: 2;
+    z-index: 4;
     border: solid;
     border-color:#4e4e4e;
 }
@@ -236,7 +236,7 @@ table {
     position: absolute; 
     top: 405px;
     left: 40px;
-    z-index: 2;
+    z-index: 4;
     border: solid;
     border-color:#4e4e4e;
 }
@@ -248,7 +248,7 @@ table {
     position: absolute; 
     top: 405px;
     left: 410px;
-    z-index: 2;
+    z-index: 3;
     border: solid;
     border-color:#4e4e4e;
 }
@@ -336,20 +336,26 @@ table {
 .tooltip {
     position: absolute;
     display: inline-block;
+
   }
   .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
-    background-color: black;
+    width: 200px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.575);
     color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
-    bottom: 100%;
-    margin-left: -60px;
+    top: -5px;
+    left: 105%;
     position: absolute ; 
     z-index: 99;
   }
   .tooltip:hover .tooltiptext {
     visibility: visible;
+  }
+  img{
+    width: 125px;
+    height: 125px;
   }
